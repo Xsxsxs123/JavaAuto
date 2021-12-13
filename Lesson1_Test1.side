@@ -1,0 +1,258 @@
+{
+  "id": "eb0a596b-56f5-4a40-b331-d5da98c54aa8",
+  "version": "2.0",
+  "name": "123",
+  "url": "https://diary.ru",
+  "tests": [{
+    "id": "9f8a6c3b-691d-411e-8f31-604f26724934",
+    "name": "Lesson1_Test1",
+    "commands": [{
+      "id": "23e304b4-712d-457c-bd63-538c46ddd09e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "976733ba-21fb-4197-82d7-ee0d41eeaf25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ff51683-ea40-4f28-8c15-e6d20c4de9b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вход",
+      "targets": [
+        ["linkText=Вход", "linkText"],
+        ["css=.navbar-index > li:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Вход')]", "xpath:link"],
+        ["xpath=//div[@id='navbar_user-collapse']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://diary.ru/user/login')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44584671-0379-4a92-91d9-8573d5725cb0",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginform-username",
+      "targets": [
+        ["id=loginform-username", "id"],
+        ["name=LoginForm[username]", "name"],
+        ["css=#loginform-username", "css:finder"],
+        ["xpath=//input[@id='loginform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1fe1978-ac82-4466-be3e-234a21b54c0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginform-username",
+      "targets": [
+        ["id=loginform-username", "id"],
+        ["name=LoginForm[username]", "name"],
+        ["css=#loginform-username", "css:finder"],
+        ["xpath=//input[@id='loginform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "12341234xcxcxc"
+    }, {
+      "id": "0b4a4223-9aa8-4a1d-a53d-cdb79b586934",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginform-password",
+      "targets": [
+        ["id=loginform-password", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#loginform-password", "css:finder"],
+        ["xpath=//input[@id='loginform-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1efa9f5f-461a-4e5b-92c4-80236c8f0a9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginform-password",
+      "targets": [
+        ["id=loginform-password", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#loginform-password", "css:finder"],
+        ["xpath=//input[@id='loginform-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12341234xcxcxc"
+    }, {
+      "id": "07614aa3-187e-4c62-9efb-f66ddf9a7f4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginform-rememberme",
+      "targets": [
+        ["id=loginform-rememberme", "id"],
+        ["css=#loginform-rememberme", "css:finder"],
+        ["xpath=//input[@id='loginform-rememberme']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/div/label/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "627e6af4-4e34-41dc-9872-bc84ae7a856b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "89201618-d889-4d07-854c-a1abfe2c436c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7837ae-2e17-47bd-9bac-d4900fdc7f30",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "66cc53fe-4c9c-486e-874b-d76cb4710838",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=8",
+      "targets": [
+        ["index=8"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4cfebb-664b-42ed-8ef2-3ad2a5d4c722",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > .rc-imageselect-tile:nth-child(3) .rc-image-tile-33",
+      "targets": [
+        ["css=tr:nth-child(1) > .rc-imageselect-tile:nth-child(3) .rc-image-tile-33", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://www.google.com/recaptcha/api2/payload?p=06AGdBq26GiZ6HKJ8NwZwNAlvRELtzJlRVKjwti_VOLHE7gk0jjBsWCTfrhkDV7gltY1oMUcDShDdQs4XVcEOlGIIMhPGs3Zlm-nUh0CKtDrtw0CWUYFuT-bKQDBfdGumkMgAl_4Jxc0CdgA2yFE11rrgUUN2RYBlt_XS-O1QutvftS85vnuAZBmfe6xM4CmrSpWv237zzM_PzMVF01koa-KVkJuSOV99XlQ&k=6LdHU6IaAAAAALUe5N77smp8Eh6pfXLWCwT1rleG')])[3]", "xpath:img"],
+        ["xpath=//div[@id='rc-imageselect-target']/table/tbody/tr/td[3]/div/div/img", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3cdec7c-c2ec-4a52-b6b7-79d69c59c534",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > .rc-imageselect-tile:nth-child(2) .rc-image-tile-33",
+      "targets": [
+        ["css=tr:nth-child(2) > .rc-imageselect-tile:nth-child(2) .rc-image-tile-33", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://www.google.com/recaptcha/api2/payload?p=06AGdBq26GiZ6HKJ8NwZwNAlvRELtzJlRVKjwti_VOLHE7gk0jjBsWCTfrhkDV7gltY1oMUcDShDdQs4XVcEOlGIIMhPGs3Zlm-nUh0CKtDrtw0CWUYFuT-bKQDBfdGumkMgAl_4Jxc0CdgA2yFE11rrgUUN2RYBlt_XS-O1QutvftS85vnuAZBmfe6xM4CmrSpWv237zzM_PzMVF01koa-KVkJuSOV99XlQ&k=6LdHU6IaAAAAALUe5N77smp8Eh6pfXLWCwT1rleG')])[5]", "xpath:img"],
+        ["xpath=//div[@id='rc-imageselect-target']/table/tbody/tr[2]/td[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1298d7e-bab1-4ba4-827f-d6ca28b8a46e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > .rc-imageselect-tile:nth-child(1) .rc-image-tile-33",
+      "targets": [
+        ["css=tr:nth-child(2) > .rc-imageselect-tile:nth-child(1) .rc-image-tile-33", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://www.google.com/recaptcha/api2/payload?p=06AGdBq26GiZ6HKJ8NwZwNAlvRELtzJlRVKjwti_VOLHE7gk0jjBsWCTfrhkDV7gltY1oMUcDShDdQs4XVcEOlGIIMhPGs3Zlm-nUh0CKtDrtw0CWUYFuT-bKQDBfdGumkMgAl_4Jxc0CdgA2yFE11rrgUUN2RYBlt_XS-O1QutvftS85vnuAZBmfe6xM4CmrSpWv237zzM_PzMVF01koa-KVkJuSOV99XlQ&k=6LdHU6IaAAAAALUe5N77smp8Eh6pfXLWCwT1rleG')])[4]", "xpath:img"],
+        ["xpath=//div[@id='rc-imageselect-target']/table/tbody/tr[2]/td/div/div/img", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2adf8ff-9c6a-4f43-9438-3830165d13d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=recaptcha-verify-button",
+      "targets": [
+        ["id=recaptcha-verify-button", "id"],
+        ["css=#recaptcha-verify-button", "css:finder"],
+        ["xpath=//button[@id='recaptcha-verify-button']", "xpath:attributes"],
+        ["xpath=//div[@id='rc-imageselect']/div[3]/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab20e6ba-5288-4af3-930a-ca3862161e8d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0848956-995b-477e-b252-b0098d3b3b34",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_btn",
+      "targets": [
+        ["id=login_btn", "id"],
+        ["name=login-button", "name"],
+        ["css=#login_btn", "css:finder"],
+        ["xpath=//button[@id='login_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dfea08d-f5ea-43e7-aa82-e2ff5d341121",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginform-username",
+      "targets": [
+        ["id=loginform-username", "id"],
+        ["name=LoginForm[username]", "name"],
+        ["css=#loginform-username", "css:finder"],
+        ["xpath=//input[@id='loginform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form_menu']/div/input", "xpath:idRelative"],
+        ["xpath=//span[4]/form/div/input", "xpath:position"]
+      ],
+      "value": "12341234xcxcxc"
+    }, {
+      "id": "503350f8-96d4-4bea-a62e-5dabff38f5a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginform-password",
+      "targets": [
+        ["id=loginform-password", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#loginform-password", "css:finder"],
+        ["xpath=//input[@id='loginform-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form_menu']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12341234xcxcxc"
+    }]
+  }],
+  "suites": [{
+    "id": "fabdb128-3b99-41f0-903e-32aeb5f45b81",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9f8a6c3b-691d-411e-8f31-604f26724934"]
+  }],
+  "urls": ["https://diary.ru/"],
+  "plugins": []
+}
